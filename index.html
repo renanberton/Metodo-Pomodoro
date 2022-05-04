@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Pomodoro</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>  
+    <section>
+        <h1>Método de estudos Pomodoro</h1>
+        <div class="relogio">
+            <div class="boxRelogio">
+                <p id="minutos">00</p>
+                <p>:</p>
+                <p id="tempo">00</p>
+            </div>
+            <button class="foco btn" onclick="foco()">COMEÇAR FOCO</button>
+            <button class="descanso btn" onclick="descanso()">COMEÇAR DESCANSO</button>
+        </div>
+        <audio id="audiotag1" src="sound/sound.mp3" preload="auto"></audio>
+    </section>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
