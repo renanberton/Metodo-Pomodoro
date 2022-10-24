@@ -20,6 +20,9 @@ function foco() {
         if (segundos >= 60) {
             segundos = 0;
             minutos += 1;
+            if (minutos.length <= 1) {
+                minutos += '0';
+            }
             if(minutos >= 25) { 
                 segundos = 0;
                 minutos = 0;
@@ -60,3 +63,5 @@ function descanso() {
         }
     }, 10);
 };
+
+
